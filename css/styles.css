@@ -144,7 +144,6 @@ body {
     .body .container .wrapper{
        width:auto;
        margin:auto;
-       text-align:auto;
        color: pink;
       }
 
@@ -164,7 +163,7 @@ and (max-device-width : 480px) {
   .body .container .wrapper{
     width:auto;
     margin:auto;
-    text-align:auto;
+   
     color: pink;
    }
 
@@ -181,7 +180,7 @@ and (min-width : 321px) {
   .body .container .wrapper{
     width:auto;
     margin:auto;
-    text-align:auto;
+    
     color: pink;
    }
 
@@ -197,7 +196,7 @@ and (max-width : 320px) {
     .body .container .wrapper{
         width:auto;
         margin:auto;
-        text-align:auto;
+       
         color: pink;
        }
  
@@ -216,7 +215,7 @@ and (max-device-width : 1024px) {
   .body .container .wrapper{
     width:auto;
     margin:auto;
-    text-align:auto;
+   
     color: pink;
    }
 
@@ -235,7 +234,7 @@ and (orientation : landscape) {
   .body .container .wrapper{
     width:auto;
     margin:auto;
-    text-align:auto;
+    
     color: pink;
    }
 
@@ -254,7 +253,7 @@ and (orientation : portrait) {
   .body .container .wrapper{
     width:auto;
     margin:auto;
-    text-align:auto;
+    
     color: pink;
    }
 
@@ -271,7 +270,7 @@ and (min-width : 1224px) {
   .body .container .wrapper{
     width:auto;
     margin:auto;
-    text-align:auto;
+   
     color: pink;
    }
 
@@ -288,7 +287,7 @@ and (min-width : 1824px) {
   .body .container .wrapper{
     width:auto;
     margin:auto;
-    text-align:auto;
+    
     color: pink;
    }
 
@@ -306,7 +305,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
   .body .container .wrapper{
     width:auto;
     margin:auto;
-    text-align:auto;
+   
     color: pink;
    }
 
@@ -324,7 +323,7 @@ only screen and (-webkit-device-pixel-ratio: 2) {
   .body .container .wrapper{
     width:auto;
     margin:auto;
-    text-align:auto;
+    
     color: pink;
    }
 
@@ -342,7 +341,7 @@ only screen and (-webkit-device-pixel-ratio: 3) {
   .body .container .wrapper{
     width:auto;
     margin:auto;
-    text-align:auto;
+    
     color: pink;
    }
 
