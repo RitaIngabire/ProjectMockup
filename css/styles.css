@@ -134,7 +134,7 @@ body {
 @media screen and (max-width: 160px) {
 
     * {  
-                    
+
         flex-direction: column; /* Column layout */ 
         align-items: flex-start;  
                  
@@ -156,10 +156,7 @@ body {
         font-size:100%;
     }
 
-    .nav_list {   
-        
-    }
-
+  
 }   
 
   
