@@ -6,38 +6,33 @@
 
 
 body {   
-    height: 100%;    
-    width:900px;    
-     
+    height: 90%;    
+    width:900px;        
 }
 
-.wrapper { 
-    
+.wrapper {     
     display:flex;
     justify-content: center;    
-    flex-wrap:wrap;
-    
+    flex-wrap:wrap;    
     background-color:black;   
     padding-top:3%; 
     padding-bottom:3%; 
     margin-top: 3%; 
     margin-bottom: 3%;   
-    height : 65%;  
-    
+    height : 55%;  
+    width :100%;    
 }
 
 .header {
 
     display:flex;
-    align-items: center; 
-    
+    align-items: center;     
     background-color:orange;
-    height: 60%;
+    height: 55%;
     width : 80%;
     padding:2%; 
     margin-left: 10%;
-    margin-right:10%;
-       
+    margin-right:10%;    
         
 }
 
@@ -45,7 +40,6 @@ body {
 
     display: flex;
     justify-content: space-between;
-
     background-color: green; 
     height: 20%; 
     margin-left:4%;
@@ -58,29 +52,31 @@ body {
 .Logoimg {
     
     max-width:  100%;
-    max-height: 100%;         
+    max-height: 100%; 
+    display: inline-block;        
 }
 
-.Logotxt{    
-   
-    font-size:200%;
+
+.Logotxt{  
     margin-bottom:20%;   
-    margin-top:20px;        
+    margin-top:20%;        
     text-align:right;  
-    
+    width : 45%;
 }
 
-.nav-menu {   
+
+.menu {   
     display:flex;    
-    align-items: center;   
+    align-items:flex-start;  
+    width : 80%; 
 }
 
 .nav__list{
 
     display:flex;    
     justify-content: space-evenly;     
-    margin-left : 20%;
-    margin-right: 20%;       
+    margin: 0 auto;  
+    width:90%;   
     
 }
 
@@ -94,7 +90,7 @@ body {
     
 }
 
-.nav-menu a {       
+.nav-menu a {  
     
     color: #fff;    
     
@@ -134,32 +130,58 @@ body {
 @media screen and (max-width: 160px) {
 
     * {  
-
+        display: flex;
         flex-direction: column; /* Column layout */ 
         align-items: flex-start;  
-                 
-      }
+        font-family: Roboto;      
+    }
+      
+    .wrapper {
+        order : 0;
+        height : 65%;
+    }
+
+    .container {
+        order : 1;
+        height:45%;
+    }
+
+    .wrapper, .container, .header {
+        width:85%;
+    }
+
+    .box {
+        width: 55%;
+    }
+
+    .logo{
+       justify-content: flex-start;
+       margin:0;       
+    }
+
+    .Logoimg {
+        height:75%;
+    }
+
+    .Logotxt {          
+        width: 45%;
+        text-align:left;
+    } 
+
+    .nav_list {   
+        display:flex;    
+        justify-content:flex-start;  
+        width : 80%; 
+    }     
     
-    .wrapper .container {
-        width : 100%;        
-        height : 50%;  
-           
-    }
-
-    .header {
-        padding : 10%;   
-
-    }
-
-    .Logotxt {
-        text-align: left;
-        font-size:100%;
-    }
-
   
 }   
 
   
+
+
+
+
 
 
 
